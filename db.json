@@ -2,7 +2,7 @@
   "passengers": [
     {
       "id": 1,
-      "fullname": "Papa Janusz",
+      "fullname": "Rick Janusz",
       "checkedin": true,
       "checkinDate": 1490742000000,
       "children": [
