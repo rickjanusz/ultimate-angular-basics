@@ -9,7 +9,11 @@ import { Passenger } from '../../models/passenger.interface'
 @Component({
   selector: 'passenger-viewer',
   styleUrls: ['passenger-viewer.component.scss'],
-  template: /*html*/ ` <div>{{ passenger | json }}</div> `,
+  template: /*html*/ `
+    <div>
+      <passenger-form [detail]="passenger"></passenger-form>
+    </div>
+  `,
 })
 export class PassengerViewerComponent implements OnInit {
   passenger: Passenger
