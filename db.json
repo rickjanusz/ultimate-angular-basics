@@ -1,11 +1,11 @@
 {
   "passengers": [
     {
+      "fullname": "Ricker Janusz",
       "id": 1,
-      "fullname": "Rick Janusz",
       "checkedin": true,
-      "checkinDate": 1490742000000,
-      "baggage": "none"
+      "baggage": "none",
+      "checkinDate": 1490742000000
     },
     {
       "id": 2,
